@@ -6,5 +6,5 @@ Project created as part of freeCodeCamp task
 
 ## Images
 
-![](https://github.com/KOGIR0/product-landing-page/imgs/plp1.png)
-![](https://github.com/KOGIR0/product-landing-page/imgs/plp2.png)
+![](https://github.com/KOGIR0/product-landing-page/blob/main/imgs/plp1.png)
+![](https://github.com/KOGIR0/product-landing-page/blob/main/imgs/plp2.png)
