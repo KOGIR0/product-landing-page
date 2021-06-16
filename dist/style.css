@@ -1,0 +1,132 @@
+body {
+    color: silver;
+    background-color: black;
+    margin: 0;
+}
+
+#page-content {
+    padding-top: 60px;
+}
+
+.nav-link:link, .nav-link:visited {
+    text-decoration: none;
+    color: silver;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin: 5px;
+    color: black;
+}
+
+#submit:hover {
+    color: white;
+    margin: 5px;
+    background-color: purple;
+    border: 5px solid purple;
+    border-radius: 4px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    color: silver;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-img {
+    height: 50px;
+}
+
+#nav-bar {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+.laptop-row-item {
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    color: silver;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.laptop-row-item button {
+    background-color: silver;
+    color: black;
+    border-radius: 4px;
+}
+
+.laptop-row-item button:hover {
+  background-color: purple;
+  color: white;
+  border: 4px solid purple;
+  border-radius: 4px;
+}
+
+.laptop-row-item img {
+    width: 100%;
+}
+
+.laptop-row-item ul {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.page-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    iframe {
+        height: 200px;
+    }
+
+    #Pricing {
+        flex-direction: column;
+    }
+
+    .laptop-row-item {
+        width: 100%;
+    }
+
+    .laptop-row-item button {
+        max-width: 300px;
+    }
+}
+
+.characteristic-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+}
+
+.characteristic-item i {
+    font-size: 64px;
+    margin: 10px;
+}
